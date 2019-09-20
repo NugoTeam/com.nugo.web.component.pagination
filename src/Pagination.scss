@@ -1,0 +1,86 @@
+@import './Variables.scss';
+
+/* Define Styles */
+ul.nugoPagination {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  overflow: hidden;
+  
+
+  li.page-item {
+    display: inline;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    a.page-link {
+      color: $defaultColor;
+    }
+
+    i {
+      margin: 0;
+      font-size: 1em;
+      display: inline-block;
+      opacity: 1;
+      width: 1.18em;
+      height: 1em;
+      font-family: Icons;
+      font-style: normal;
+      font-weight: 400;
+      text-decoration: inherit;
+      text-align: center;
+      speak: none;
+      font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    i.caret.right:before {
+      content: "\f0da"
+    }
+
+    i.caret.left:before {
+      content: "\f0d9"
+    }
+
+    i.angle.double.left:before {
+      content: "\f100"
+    }
+    
+    i.angle.double.right:before {
+      content: "\f101"
+    }
+  }
+
+  li.page-item.active {
+    a.page-link {
+      color: $activeColor;
+      font-weight: 500;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  ul.nugoPagination {
+    li.page-item {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  ul.nugoPagination {
+    li.page-item {
+      padding-left: 0.7rem;
+      padding-right: 0.7rem;
+    }
+  }
+}

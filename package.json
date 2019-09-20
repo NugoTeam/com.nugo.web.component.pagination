@@ -16,7 +16,7 @@
     "nugo",
     "pagination"
   ],
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack -–display-error-details",
