@@ -1,5 +1,5 @@
 {
-  "name": "nugo-pagination-es6",
+  "name": "nugo-pagination",
   "version": "1.0.0",
   "repository": "https://github.com/egisberto/nugo-pagination.git",
   "main": "dist/index.js",
