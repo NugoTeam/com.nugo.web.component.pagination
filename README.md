@@ -18,8 +18,6 @@ $ npm i nugo-pagination
 ```
 
 ## Usage
-
-Using npm:
 ```js
 // Import
 import Pagination from 'nugo-pagination'
