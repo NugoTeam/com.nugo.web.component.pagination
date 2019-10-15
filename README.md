@@ -45,8 +45,9 @@ import Pagination from 'nugo-pagination'
 ## Publishing (Development)
 
 Follow these steps to publish the package:
-1. Change the version package in package.json (https://semver.org/);
-2. run the follow command: ```npm publish```
+1. Make the code changes;
+2. Change the version package in package.json (https://semver.org/);
+3. run the follow command: ```npm publish```
 
 
 ## Available Scripts (Development)
