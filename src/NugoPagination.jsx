@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './Fonts.css'
-import './Pagination.scss'
+import './NugoPagination.scss'
 
 const LEFT_PAGE = 'LEFT'
 const RIGHT_PAGE = 'RIGHT'
@@ -23,7 +23,7 @@ const range = (from, to, step = 1) => {
   return range
 }
 
-class Pagination extends Component {
+class NugoPagination extends Component {
   constructor (props) {
     super(props)
     const { totalRecords = null, pageSize = PAGE_SIZE, pageNeighbours = 0 } = props
@@ -190,11 +190,11 @@ class Pagination extends Component {
   }
 }
 
-Pagination.propTypes = {
+NugoPagination.propTypes = {
   totalRecords: PropTypes.number.isRequired,
   pageSize: PropTypes.number,
   pageNeighbours: PropTypes.number,
   onPageChange: PropTypes.func
 }
 
-export default Pagination
+export default NugoPagination
