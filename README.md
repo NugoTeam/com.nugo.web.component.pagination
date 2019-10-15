@@ -2,7 +2,7 @@ Nugo Pagination
 ===================
 This repository contains the nugo-pagination package.
 
-![API Version](https://img.shields.io/badge/version-1.1.1-brightgreen.svg)
+![API Version](https://img.shields.io/badge/version-1.1.2-brightgreen.svg)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Instalation
