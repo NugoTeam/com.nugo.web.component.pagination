@@ -5,5 +5,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.2] - 2019-10-15
+### Modified
+- Change the repository url.
+
 ## [1.1.1] - 2019-10-01
 ### The first version of NUGO Pagination.
